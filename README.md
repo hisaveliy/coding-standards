@@ -57,6 +57,12 @@ In the pull-request description area the following information must be specified
 - refer a trello card for this task
 - it is ok if a pull-request contains several tasks completed. You have to specify the main task's name in the headline, and write down the list of all the updates in the description.
 
+|Type|Meaning|
+|:---|:---|
+|`new-feature`|you added something new hadn't been existed before|
+|`improvement`|you made an existing stable functionality to work better|
+|`bug`|you repaired an existing functionality which didn't work properly|
+
 ### Pull-request example
 
 **Headline**
@@ -66,12 +72,6 @@ In the pull-request description area the following information must be specified
 > - `new-feature` - add styling settings for product page typography [Trello card](https://example.com)
 > - `improvement` - add animation library [Trello card](https://example.com)
 > - `bug` - fix product page mobile appearance [Trello card](https://example.com)
-
-|Type|Meaning|
-|:---|:---|
-|`new-feature`|you added something new hadn't been existed before|
-|`improvement`|you made an existing stable functionality to work better|
-|`bug`|you repaired an existing functionality which didn't work properly|
 
 ## CSS Coding standards
 The information below is taken from Wordpress.org. [Learn more](https://make.wordpress.org/core/handbook/best-practices/coding-standards/css/)
