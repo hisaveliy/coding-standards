@@ -5,6 +5,9 @@
 1. [Requirements](#requirements)
 1. [Code style](#code-style)
     1. [Commit and Pull-request standards](#commit-and-pull-request-standards)
+        1. [Naming](#naming)
+        1. [Pull-request description](#pull-request-description)
+        1. [Pull-request example](#pull-request-example)
     1. [CSS Coding standards](#css-coding-standards)
         1. [Structure](#structure)
         1. [Selectors](#selectors)
@@ -26,7 +29,7 @@
 1. [Contributing](#contributing)   
     1. [Get started](#get-started)   
     1. [Bundle assets](#bundle-assets)   
-    1. [Commit changes](#commit-changes)   
+    1. [How to contribute](#how-to-contribute)   
 
 ### Requirements
 A list of dependencies and their versions (could be newer).
@@ -40,18 +43,29 @@ A list of dependencies and their versions (could be newer).
 
 ## Commit and Pull-request standards
 
-**Both Commit's and Pull-request's name must meet the following rules**
+### Naming
+Both Commit's and Pull-request's name must meet the following rules
 
 - Use the present tense ("Add feature" not "Added feature")
 - Use the imperative mood ("Move cursor to..." not "Moves cursor to...") 
 - The first word must be a verb ("Add", "Fix". "Improve" etc)
 
-**Required for every pull-request**
-
-In the pull-request description area specify:
+### Pull-request description
+In the pull-request description area the following information must be specified:
  
 - a list of updates where each item is labeled either `new-feature`, `improvement`, or `bug`
 - refer a trello card for this task
+- it is ok if a pull-request contains several tasks completed. You have to specify the main task's name in the headline, and write down the list of all the updates in the description.
+
+### Pull-request example
+
+**Headline**
+> Update the settings fields of styling options
+
+**Description**
+> - `new-feature` - add styling settings for product page typography [Trello card](https://example.com)
+> - `improvement` - add animation library [Trello card](https://example.com)
+> - `bug` - fix product page mobile appearance [Trello card](https://example.com)
 
 |Type|Meaning|
 |:---|:---|
@@ -955,8 +969,7 @@ Output: <button>Add this Christmas Tree to cart</button>
    > npm run prod
    ```
    
-## Commit changes
-Follow the rules steps below for applying your changes to master branch.
+### How to contribute
 
 1. Each feature, improvement or bug fix must be completed in a dedicated branch
 1. Iterate version
