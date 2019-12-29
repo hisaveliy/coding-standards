@@ -971,7 +971,7 @@ Output: <button>Add this Christmas Tree to cart</button>
    
 ### How to contribute
 
-1. Each feature, improvement or bug fix must be completed in a dedicated branch
+1. Each feature, improvement or bug fix should be completed in a dedicated branch, but it is possible to complete several Trello cards under the same branch if the are logically connected. 
 1. Iterate version
     - in `style.css` for theme development
     - in `bootstrap.php` for plugin development
